@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family:sans-serif;
+}
+input{
+    outline: none;
+    padding: 5px;
+}
+.navbar-footer-baskets{
+    padding: 10px;
+}
+.navbar-footer-baskets a:active{
+    background-color: mediumaquamarine;
+}
+.navbar-footer-baskets:active{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(243, 174, 2);
+}

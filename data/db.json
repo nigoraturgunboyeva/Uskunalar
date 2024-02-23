@@ -1,0 +1,72 @@
+{
+    "PopularProducts": [
+        {
+            "id": 550,
+            "title": "Frezalash uskunasi (yog'ochga yuqori sifatda shakl beruvchi uskuna) US-MX5117B",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUdGXSix2ciE2AIrje8gIDIm1XC5vmRBTEbQ&usqp=CAU",
+            "harakteristika1": "Model",
+            "harakteristikatype1": "US-MLQ-309",
+            "harakteristika2": "Volt (V)",
+            "harakteristikatype2": "220V, 50Hz",
+            "harakteristika3": "Quvvat(KW):",
+            "harakteristikatype3": "300 W",
+            "harakteristika4": "Xususiyati:",
+            "harakteristikatype4": "3 qavat",
+            "cip" :"cip",
+            "price": 1800
+        },
+        {
+            "id": 551,
+            "title": "Frezalash uskunasi (yog'ochga yuqori sifatda shakl beruvchi uskuna) US-MX5117B",
+            "img": "https://d23uobcja6cuc.cloudfront.net/business/dam/img/products/devices/public-sector/ps-apple-iphone-15-plus-blue-400x400.png",
+            "harakteristika1": "Model",
+            "harakteristikatype1": "Apple",
+            "harakteristika2": "Name",
+            "harakteristikatype2": "14 pro max",
+            "harakteristika3": "Quvvat(KW):",
+            "harakteristikatype3": "300 W",
+            "harakteristika4": "Year:",
+            "harakteristikatype4": "2023",
+            "cip" :"EXW",
+            "price": 1700
+        },
+        {
+            "id": 552,
+            "title": "Frezalash uskunasi (yog'ochga yuqori sifatda shakl beruvchi uskuna) US-MX5117B",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUdGXSix2ciE2AIrje8gIDIm1XC5vmRBTEbQ&usqp=CAU",
+            "harakteristika1": "Model",
+            "harakteristikatype1": "US-MLQ-309",
+            "harakteristika2": "Volt (V)",
+            "harakteristikatype2": "220V, 50Hz",
+            "harakteristika3": "Quvvat(KW):",
+            "harakteristikatype3": "300 W",
+            "harakteristika4": "Xususiyati:",
+            "harakteristikatype4": "3 qavat",
+            "cip" :"cip",
+            "price": 2200
+        },
+        {
+            "id": 553,
+            "title": "Frezalash uskunasi (yog'ochga yuqori sifatda shakl beruvchi uskuna) US-MX5117B",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUdGXSix2ciE2AIrje8gIDIm1XC5vmRBTEbQ&usqp=CAU",
+            "harakteristika1": "Model",
+            "harakteristikatype1": "US-MLQ-309",
+            "harakteristika2": "Volt (V)",
+            "harakteristikatype2": "220V, 50Hz",
+            "harakteristika3": "Quvvat(KW):",
+            "harakteristikatype3": "300 W",
+            "harakteristika4": "Xususiyati:",
+            "harakteristikatype4": "3 qavat",
+            "cip" :"EXW",
+            "price": 1550
+        },
+        {
+            "id": 554,
+            "title": "Frezalash uskunasi (yog'ochga yuqori sifatda shakl beruvchi uskuna) US-MX5117B",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUdGXSix2ciE2AIrje8gIDIm1XC5vmRBTEbQ&usqp=CAU",
+            "harakteristika1": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "price": 1900,
+            "cip":"cip"
+        }
+    ]
+}
