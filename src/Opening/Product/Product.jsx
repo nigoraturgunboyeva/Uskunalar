@@ -5,7 +5,7 @@ import { IoMdHeartEmpty } from "react-icons/io";
 import { BsCart } from "react-icons/bs";
 import { LiaBalanceScaleLeftSolid } from "react-icons/lia";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
-import { GetPopularProducts, SelectBasket, SelectLiked, SelectScale } from '../../Redux/Main';
+import { GetPopularProducts, SelectBasket, SelectError, SelectLiked, SelectScale } from '../../Redux/Main';
 import { useDispatch, useSelector } from 'react-redux';
 import { BsFillCartCheckFill } from "react-icons/bs";
 import { RiShoppingCartLine } from "react-icons/ri";
@@ -27,8 +27,12 @@ export default function Product() {
     }
     useEffect(() => {
         async function HandlePopularProducts(){
+          try {
             const data = await axios.get("http://localhost:3001/PopularProducts")
             dispatch(GetPopularProducts(data.data))
+          } catch (error) {
+            dispatch(SelectError(error))
+          }
         }
         HandlePopularProducts()
     },[])

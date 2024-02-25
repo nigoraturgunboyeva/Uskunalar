@@ -748,6 +748,7 @@ figure {
 .product-1-img img{
     width: 500px;
 }
+
 .product-1-icon {
     display: flex;
     gap: 20px;
@@ -817,17 +818,115 @@ figure {
     border: none;
     color: rgb(32, 32, 32);
     font-weight: 100;
+    cursor: pointer;
 }
 .liked-btn-view{
     background: none;
     border: none;
 }
+
 .products-skeleton{
     max-width: 1410px;
     margin: 0 auto;
     display: grid;
     margin-top: 20px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.product-view{
+    max-width: 1403px;
+    margin: 0 auto;
+    overflow-x: auto;
+}
+.tab-cont{
+    max-width: 1403px;
+}
+.gry-strike{
+    padding: 10px;
+    padding-top: 15px;
+    height: 50px;
+    background-color: rgb(218, 233, 255);
+    margin-bottom: -10px;
+}
+.white-strike{
+    padding: 10px;
+    padding-top: 15px;
+    height: 50px;
+    margin-bottom: -10px;
+}
+.gry-strike:hover{
+    transition: all .2s ease;
+    background-color: rgb(220, 158, 2);
+}
+
+.white-strike:hover{
+    transition: all .2s ease;
+    background-color: rgb(255, 190, 24);
+}
+.product-static-2{
+    display: flex;
+    gap: 30px;
+}
+.modal-div{
+    padding: 10px;
+    border: rgb(202, 202, 202) 1px solid;
+}
+.modal-div h1{
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 100;
+}
+.modal-div-2{
+    display: flex;
+    padding: 5px;
+    gap: 10px;
+    border-right: rgb(255, 190, 24) 4px solid;
+    border-left: rgb(255, 190, 24) 1px solid;
+    border-top: rgb(255, 190, 24) 1px solid;
+    border-bottom: rgb(255, 190, 24) 1px solid;
+}
+.modal-div-2 img{
+    width: 130px;
+}
+.modal-div-2 h2{
+    font-size: 14px;
+    font-weight: 100;
+}
+.modal-div-2 h3{
+    font-size: 12px;
+    color: red;
+    font-weight: 100;
+}
+.modal-div-2 h4{
+    font-size: 16px;
+    font-weight: 100;
+}
+.modal-send-btn{
+    cursor: pointer;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(255, 190, 24);
+}
+
+.modal-send-btn:hover{
+    transition: all .2s ease;
+    background-color: rgb(255, 202, 68);
+}
+
+.modal-div-3 h6{
+    margin-top: 10px;
+    font-weight: 100;
+    font-size: 12px;
+}
+.modal-div-3 h3{
+    font-weight: 100;
+}
+@media (max-width: 1250px){
+    .product-1{
+        display: block;
+        margin-bottom: 40px;
+    }
 }
 @media (max-width: 1450px){
     .slider-container{
@@ -936,6 +1035,10 @@ figure {
         max-width: 700px;
         margin: 0 auto;
     }
+    
+    .product-1-icon{
+        margin-top: 20px;
+    }
     .products-skeleton{
         max-width: 700px;
         row-gap: 30px;
@@ -1014,6 +1117,9 @@ figure {
     .slider-container{
         max-width: 500px;
         margin: 0 auto;
+    }
+    .book-desc1{
+        margin-right: 10px;
     }
     .products-skeleton{
         max-width: 500px;
@@ -1145,6 +1251,40 @@ figure {
     .footer-input input{
         width: 300px;
     }
+    .product-1-img img{
+        width: 300px;
+    }
+    .product-1-body h4{
+        font-size: 12px
+    }
+    .product-1-title{
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .product-static { 
+        font-size: 12px;
+    }
+    .book-btn-1{
+        padding: 5px;
+        font-size: 12px;
+    }
+    .book-btn-2{
+        padding: 6px;
+        font-size: 12px;
+    }
+    .price h6{
+        font-size: 16px;
+    }
+    .price-uzb{
+        margin-top: 10px;
+        font-size: 14px;
+    }
+    .book-desc1{
+        font-size: 12px;
+    }
+    .book-desc2{
+        font-size: 12px;
+    }
 }
 @media (max-width: 450px){
     .slider-container{
@@ -1203,11 +1343,55 @@ figure {
     .footer-input input{
         width: 220px;
     }
+    .product-1-img img{
+        width: 250px;
+    }
+    .book-btn-1{
+        padding: 5px;
+        font-size: 12px;
+        margin-left: 100px;
+        margin-bottom: 10px;
+        width: 100px;
+    }
+    .book-btn-2{
+        padding: 6px;
+        font-size: 12px;
+        margin-left: 100px;
+        width: 100px;
+    }
+    .price-uzb{
+        margin-top: 10px;
+        font-size: 14px;
+        width: 120px;
+    }
 }
 @media (max-width: 400px){
     .slider-container{
         max-width: 300px;
         margin: 0 auto;
+    }
+    .book-btn-1{
+        padding: 5px;
+        font-size: 12px;
+        margin-left: 50px;
+        margin-bottom: 10px;
+        width: 100px;
+    }
+    .book-btn-2{
+        padding: 6px;
+        font-size: 12px;
+        margin-left: 50px;
+        width: 100px;
+    }
+    .book-desc{
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .book-desc div{
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
     .products-skeleton{
         max-width: 300px;
@@ -1340,5 +1524,40 @@ figure {
     }
     .aboutus-cont{
         padding: 10px;
+    }
+}
+@media (max-width: 310px){
+    .book-div{
+        width: 250px;
+    }
+    .product-1{
+        padding: 5px;
+    }
+    .book-btn-1{
+        padding: 5px;
+        font-size: 12px;
+        margin-left: 0px;
+        margin-bottom: 10px;
+        width: 100px;
+    }
+    .book-price-1{
+        display: block;
+    }
+    .book-btn-2{
+        padding: 6px;
+        font-size: 12px;
+        margin-left: 0px;
+        width: 100px;
+    }
+    .book-desc{
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .book-desc div{
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-right: 3px;
     }
 }
