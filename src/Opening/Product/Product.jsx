@@ -1,13 +1,9 @@
 import React, { useEffect } from 'react';
-import img from "../Body/image2.webp";
 import { BsTruck } from "react-icons/bs";
-import { IoMdHeartEmpty } from "react-icons/io";
-import { BsCart } from "react-icons/bs";
 import { LiaBalanceScaleLeftSolid } from "react-icons/lia";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import { GetPopularProducts, SelectBasket, SelectError, SelectLiked, SelectScale } from '../../Redux/Main';
 import { useDispatch, useSelector } from 'react-redux';
-import { BsFillCartCheckFill } from "react-icons/bs";
 import { RiShoppingCartLine } from "react-icons/ri";
 import { FaRegHeart } from "react-icons/fa";
 import { FaHeart } from "react-icons/fa";
@@ -35,7 +31,7 @@ export default function Product() {
           }
         }
         HandlePopularProducts()
-    },[])
+    },[dispatch])
   return (
     <div className='product'>
         <h1>Ommabop mahsulotlar</h1>

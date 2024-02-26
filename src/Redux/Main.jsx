@@ -2,10 +2,11 @@ import { createSlice } from "@reduxjs/toolkit";
 const initialState = {
     Error: [],
     PopularProducts: [],
+    searchItems: [],
     liked: JSON.parse(localStorage.getItem('LikedDevice')) || [],
     basket: JSON.parse(localStorage.getItem('BasketDevice')) || [],
     scale: JSON.parse(localStorage.getItem('ScaleDevice')) || [],
-    }
+}
 const MainSlice = createSlice({
     name: "mainSlice",
     initialState,
@@ -30,7 +31,7 @@ const MainSlice = createSlice({
         SelectRefresh: (state) => {
             state.scale = JSON.parse(localStorage.getItem('ScaleDevice')) || []
         },
-        SelectBasket: (state, action) =>{
+        SelectBasket: (state, action) => {
             localStorage.setItem('BasketDevice', JSON.stringify([...state.basket, action.payload]))
             state.basket = JSON.parse(localStorage.getItem('BasketDevice')) || []
         },
@@ -39,12 +40,12 @@ const MainSlice = createSlice({
                 state.basket.filter(item => item.id !== action.payload.id)
             ));
             state.basket = JSON.parse(localStorage.getItem('BasketDevice')) || []
-        },    
+        },
         DeleteAllBasket: (state, action) => {
             localStorage.clear()
             state.basket = JSON.parse(localStorage.getItem('BasketDevice')) || []
         },
-        SelectScale: (state, action) =>{
+        SelectScale: (state, action) => {
             localStorage.setItem('ScaleDevice', JSON.stringify([...state.scale, action.payload]))
             state.scale = JSON.parse(localStorage.getItem('ScaleDevice')) || []
         },
@@ -53,13 +54,19 @@ const MainSlice = createSlice({
                 state.scale.filter(item => item.id !== action.payload.id)
             ));
             state.scale = JSON.parse(localStorage.getItem('ScaleDevice')) || []
-        },    
+        },
         DeleteAllScale: (state, action) => {
             localStorage.clear()
             state.scale = JSON.parse(localStorage.getItem('ScaleDevice')) || []
         },
         GetPopularProducts: (state, action) => {
             state.PopularProducts = action.payload
+        },
+        searchItem: (state, action) => {
+            if (action.payload.length > 0)
+                state.searchItems = state.PopularProducts.filter(i => i.title.toLocaleLowerCase().includes(action.payload.toLocaleLowerCase().trim()))
+            else
+                state.searchItems = []
         }
     }
 })
@@ -75,6 +82,7 @@ export const {
     GetPopularProducts,
     SelectScale,
     DeleteAllScale,
-    SelectRefresh
+    SelectRefresh,
+    searchItem
 } = MainSlice.actions;
 export default MainSlice.reducer;
