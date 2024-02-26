@@ -446,8 +446,8 @@
     }
 
     .input-div {
-        position: absolute;
-        width: auto;
+        /* position: absolute; */
+        width: 480px;
         margin-left: 10px;
     }
 
@@ -541,7 +541,7 @@
 
 @media (max-width: 557px) {
     .input-div {
-        width: 330px;
+        width: 400px;
         margin-left: 10px;
         height: 40px;
     }
@@ -568,7 +568,7 @@
 
 @media (max-width: 450px) {
     .input-div {
-        width: 280px;
+        width: 340px;
         margin-left: 10px;
         height: 40px;
     }
@@ -600,7 +600,7 @@
 
 @media (max-width: 400px) {
     .input-div {
-        width: 240px;
+        width: 300px;
         margin-left: 10px;
         height: 40px;
     }
@@ -654,7 +654,7 @@
 
 @media (max-width: 350px) {
     .input-div {
-        width: 220px;
+        width: 270px;
         margin-left: 10px;
         height: 40px;
     }
@@ -715,7 +715,7 @@
 
 @media (max-width: 302px) {
     .input-div {
-        width: 200px;
+        width: 240px;
         margin-left: 10px;
         height: 40px;
     }
@@ -757,12 +757,58 @@
 .searchPanel {
     width: 652px;
     z-index: 2011;
-    background-color: brown;
+    background-color: white;
     margin-top: 5px;
 }
+
 .searchPanel span {
     display: block;
     height: 5px;
+}
+
+.searchCardOrovchi {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    margin-left: 10px;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.searchCards {
+    width: 92%;
+    height: 120px;
+    border-bottom: 1px solid rgb(44, 42, 42);
+    color: black;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.searchAddition {
+    width: 50%;
+}
+
+.searchAddition p {
+    font-size: 14px;
+    font-weight: normal;
+    margin: 3px;
+}
+.searchPrice{
+    margin: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(209, 18, 18);
+}
+.searchCards:hover {
+    border: 1px solid yellow;
+}
+
+.searchCards figure img {
+    width: 120px;
+    height: 110px;
+    object-fit: cover;
 }
 
 .searchPanel button {
@@ -789,43 +835,64 @@
         width: 400px;
         margin-left: -100px;
     }
+    .searchCards figure img {
+        width: 100px;
+        height: 90px;
+    }
+    .searchAddition p {
+        font-size: 12px;
+    }
+    .searchPrice{
+        font-size: 13px;
+    }
 }
 
 @media (max-width: 715px) {
+    .searchCards figure img {
+        width: 90px;
+        height: 80px;
+    }
     .searchPanel {
         margin-top: 60px;
-        width: 390px;
+        width: 480px;
         margin-left: 10px;
+    }
+    .searchAddition p {
+        font-size: 10px;
+    }
+    .searchPrice{
+        font-size: 11px;
     }
 }
 
 @media (max-width: 557px) {
     .searchPanel {
-        width: 330px;
+        width: 400px;
+        /* margin-left: 10px; */
     }
 }
 
 @media (max-width: 450px) {
     .searchPanel {
-        width: 280px;
+        width: 340px;
         margin-left: 10px;
     }
 }
 
 @media (max-width: 400px) {
     .searchPanel {
-        width: 240px;
+        width: 300px;
     }
 }
 
 @media (max-width: 350px) {
     .searchPanel {
-        width: 220px;
+        width: 270px;
     }
 }
 
 @media (max-width: 302px) {
     .searchPanel {
-        width: 200px;
+        width: 240px;
     }
 }
