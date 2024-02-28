@@ -39,7 +39,7 @@ export default function Navbar() {
                             <li><NavLink className={"a"}>Mahsulotlar</NavLink></li>
                             <li><NavLink className={"a"}>Liniyalar</NavLink></li>
                             <li><NavLink className={"a"}>Biznes loyihalar</NavLink></li>
-                            <li><NavLink className={"a"}>Kompaniya haqida</NavLink></li>
+                            <li><NavLink className={"a"} to={"/konpaniyaHaqida"}>Kompaniya haqida</NavLink></li>
                             <li><NavLink className={"a"}>Bizning videolar</NavLink></li>
                             <li><NavLink className={"a"}>Bizning maqolalar</NavLink></li>
                             <li><NavLink className={"a"}>Bizning ishlar</NavLink></li>

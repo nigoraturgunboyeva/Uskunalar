@@ -1,0 +1,266 @@
+.Kompaniyahaqida {
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.5)), url("./img/kto-takoj-inzhener-2.jpg") no-repeat;
+    height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    border-bottom-left-radius: 400px;
+    border-bottom-right-radius: 400px;
+    /* /* opacity: 0.6 * */
+    filter: brightness(80%)
+}
+
+.bu-section-1-text-1 {
+    color: white;
+    z-index: 999;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 100px;
+    filter: brightness(100%)
+}
+
+span {
+    color: orange;
+}
+
+.bu-section-1-text-2 {
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+    line-height: 25px;
+
+}
+
+@media screen and (max-width:850px) {
+    .bu-section-1-text-2 {
+        display: none;
+    }
+
+    .bu-section-1-text-1 {
+        font-size: 25px;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+
+    .Kompaniyahaqida {
+        height: 350px;
+
+    }
+}
+
+.card-part-main-text-kompaniya-haqida {
+    color: black;
+    z-index: 999;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    filter: brightness(100%)
+}
+
+.img-card-kh {
+    width: 30px;
+    color: orange;
+    padding-right: 80px;
+    padding-top: 10px;
+}
+
+.card-1-kompaniya-haqida {
+    display: flex;
+    /* padding-top: 10px; */
+}
+
+.card-2-kompaniya-haqida {
+    display: flex;
+    /* padding-top: 10px; */
+}
+
+.card-3-kompaniya-haqida {
+    display: flex;
+    /* padding-top: 10px; */
+
+}
+
+.card-4-kompaniya-haqida {
+    display: flex;
+    /* padding-top: 10px; */
+}
+
+.card-5-kompaniya-haqida {
+    display: flex;
+    /* padding-top: 10px; */
+}
+
+.card-6-kompaniya-haqida {
+    display: flex;
+    /* padding-top: 10px; */
+}
+
+.card-kh-text-1 {
+    color: black;
+    font-size: 25px;
+    /* width: 500px; */
+}
+
+.card-part-1-kh {
+    display: flex;
+    margin-left: 140px;
+    gap: 70px;
+    flex-wrap: wrap;
+}
+
+.card-kh-text-2 {
+    font-size: 15px;
+    margin-top: 10px;
+    color: black;
+}
+
+@media screen and (max-width:850px) {
+    .card-kh-text-1 {
+        font-size: 20px;
+    }
+
+    .card-kh-text-2 {
+        font-size: 10px;
+    }
+
+    .card-3-kompaniya-haqida {
+        padding-bottom: 100px;
+    }
+
+    .card-4-kompaniya-haqida {
+        padding-bottom: 100px;
+    }
+
+    .card-5-kompaniya-haqida {
+        display: none;
+    }
+
+    .card-6-kompaniya-haqida {
+        display: none;
+    }
+}
+
+.right-part-img {
+    width: 650px;
+    height: 400px;
+    margin-left: 100px;
+}
+
+.xalqaro-us-third-part {
+    display: flex;
+    background-color: gray;
+    gap: 1px;
+    /* flex-wrap: wrap; */
+}
+
+.third-part-text-1 {
+    color: black;
+    z-index: 999;
+    text-align: center;
+    font-size: 30px;
+    padding-left: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.third-part-text-2 {
+    font-size: 23px;
+    margin-top: 10px;
+    color: black;
+    margin-left: 70px;
+    line-height: 35px;
+    text-align: center;
+}
+
+@media screen and (max-width:900px) {
+    .xalqaro-us-third-part {
+        flex-wrap: wrap;
+    }
+
+    .right-part-img {
+        padding-right: 90px;
+        /* width: 700px; */
+    }
+}
+
+@media screen and (max-width:650px) {
+    .right-part-img {
+        display: none;
+    }
+
+    .third-part-text-2 {
+        font-size: 15px;
+        line-height: 20px;
+        margin-left: 10px;
+        padding-bottom: 20px;
+    }
+
+    .third-part-text-1 {
+        font-size: 20px;
+    }
+}
+
+.main-text-f-part {
+    color: black;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 100px;
+}
+
+.span1-black {
+    width: 900px;
+    font-size: 30px;
+    border-bottom: 1px solid black;
+    color: black;
+    height: auto;
+    margin-left: 700px;
+}
+
+.span2-white {
+    width: 900px;
+    font-size: 30px;
+    color: orange;
+    border-bottom: 1px solid orange;
+    height: auto;
+}
+
+.f-part-text-2 {
+    font-size: 23px;
+    margin-top: 10px;
+    color: black;
+    margin-left: 70px;
+    line-height: 30px;
+    margin-left: 50px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.f-part-image {
+    width: 250px;
+    padding: 40px;
+    margin-left: 90px;
+}
+
+@media screen and (max-width:850px) {
+    .f-part-text-2 {
+        font-size: 15px;
+        line-height: 20px;
+        margin-left: 10px;
+    }
+
+    .span1-black {
+        display: none;
+    }
+
+    .span2-white {
+        display: none;
+    }
+
+    .f-part-image {
+        width: 120px;
+        padding: 5px;
+        margin-left: 30px;
+    }
+
+}
