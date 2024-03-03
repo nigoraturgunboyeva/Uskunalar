@@ -36,7 +36,7 @@ export default function Navbar() {
                             <span onClick={() => handleCloseNavbar()}><IoCloseCircleOutline /> </span>
                         </div>
                         <ul >
-                            <li><NavLink className={"a"}>Mahsulotlar</NavLink></li>
+                            <li><NavLink to="/mahsulotlar" className={"a"}>Mahsulotlar</NavLink></li>
                             <li><NavLink className={"a"}>Liniyalar</NavLink></li>
                             <li><NavLink className={"a"}>Biznes loyihalar</NavLink></li>
                             <li><NavLink className={"a"} to={"/konpaniyaHaqida"}>Kompaniya haqida</NavLink></li>

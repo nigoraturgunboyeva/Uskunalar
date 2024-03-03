@@ -8,6 +8,7 @@ import Basket from "./Opening/Product/Selected/Basket";
 import Scale from "./Opening/Product/Selected/Scale";
 import ViewProduct from "./Opening/Product/View/ViewProduct";
 import Section1 from "./Opening/konpaniyaHaqida page/section-1";
+import Mahslulotlar from "./Pages/Mahslulotlar";
 function App() {
   return (
     <div className="App">
@@ -19,6 +20,7 @@ function App() {
         <Route path="scale" element={<Scale />} />
         <Route path="konpaniyaHaqida" element={<Section1 />} />
         <Route path='/view/:id' element={<ViewProduct />} />
+        <Route path="mahsulotlar" element={<Mahslulotlar />}/>
       </Routes>
       <Footer />
     </div>

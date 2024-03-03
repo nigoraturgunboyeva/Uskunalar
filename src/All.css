@@ -1,23 +1,1360 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     list-style-type: none;
     text-decoration: none;
-    font-family:sans-serif;
+    font-family: sans-serif;
 }
-input{
+
+input {
     outline: none;
     padding: 5px;
 }
-.navbar-footer-baskets{
+
+.navbar-footer-baskets {
     padding: 10px;
 }
-.navbar-footer-baskets a:active{
+
+.navbar-footer-baskets a:active {
     background-color: mediumaquamarine;
 }
-.navbar-footer-baskets:active{
+
+.navbar-footer-baskets:active {
     padding: 10px;
     border-radius: 10px;
     background-color: rgb(243, 174, 2);
+}
+.x-uchun img{
+    display: none;
+}
+.mahsulotlar {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 50px;
+}
+
+.mahsulotlar_top {
+    width: 100%;
+    height: auto;
+    padding: 10px 72px;
+    background-color: rgb(240 240 240);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.mahsulotlar_top h1 a {
+    text-decoration: none;
+    color: rgb(117 117 117);
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.mahsulotlar_bottom {
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 20px 72px 0px;
+}
+
+.mb_left {
+    width: 250px;
+    height: 700px;
+    overflow: scroll;
+}
+
+.mb_left_input {
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.mb_left_input input {
+    width: 150px;
+    border: none;
+    background-color: rgb(241, 237, 237);
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.mbl_filters {
+    width: 100%;
+    height: auto;
+    padding: 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mbl_filters li {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px 10px 0px;
+    cursor: pointer;
+}
+
+.li_div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.li_div img {
+    width: 28px !important;
+    height: 28px !important;
+}
+
+.mbl_filters li img {
+    width: 16px;
+    height: 16px;
+}
+
+.mb_right {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+    gap: 30px;
+}
+
+.mb_right_top {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.mbrt_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.mbrt_title h1 {
+    font-size: 1.5em;
+}
+
+.mbrt_title h3 {
+    display: flex;
+    gap: 5px;
+}
+
+.mb_length {
+    width: 60px;
+    height: 30px;
+    border: 1px solid rgb(243, 174, 2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(242, 238, 238);
+}
+
+.mb_length p {
+    opacity: .5;
+}
+
+.mb_right_center {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mbr_center_filters {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.mbrc_filter {
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.mbrc_filter:active {
+    background-color: #E60000;
+    color: white;
+}
+
+.mbrc_cards_type {
+    display: flex;
+    gap: 10px;
+}
+
+.mbrc_cards_type button {
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.mbrc_cards_type button:active {
+    background-color: rgb(243, 174, 2);
+}
+
+.mbrc_cards_type button svg {
+    width: 22px;
+    height: 22px;
+}
+
+.mb_right_bottom {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.mahsulotlar_pagination {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.m_p_btn {
+    width: 40px;
+    height: 30px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.m_p_btn:hover {
+    transition: all .2s linear;
+    background-color: rgb(243, 174, 2);
+    cursor: pointer;
+}
+
+.m_p_btn:active {
+    background-color: #333333;
+    color: white;
+}
+
+.cardType {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    border: 1px solid grey;
+    padding-right: 30px;
+}
+
+.ct_right_yellow {
+    width: 5px;
+    height: 250px;
+    background-color: rgb(243, 174, 2) !important;
+    margin-right: 20px;
+}
+
+.ct_img {
+    padding-right: 20px;
+}
+
+.ct_img img {
+    width: 220px;
+    height: 205px;
+}
+
+.ct_center {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 10px;
+}
+
+.ctc_h1 {
+    width: 420px;
+    height: auto;
+    font-size: 16px;
+}
+
+.ct_center_yellow {
+    width: 50px;
+    height: 2px;
+    background: rgb(243, 174, 2);
+}
+
+.ct_center_buyurtma {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #E60000;
+}
+
+.ct_center_type {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.ctc_type_text {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ctct_line {
+    width: 100%;
+    height: 1px;
+    background-color: grey;
+}
+
+.ct_end {
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.ct_end_top {
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.ct_end_top_funcs {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.ct_end_bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ctend_bot_price {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 5px;
+}
+
+.cbp {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.mahsulotlar_cip {
+    background-color: #FF052E14;
+    color: #FF0000;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.cbp h1 {
+    color: #FF0000;
+}
+
+.ctend_bot_price p {
+    color: #333333;
+}
+
+.ct_end_bottom a {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    background: rgb(243, 174, 2);
+    text-decoration: none;
+    color: #333333;
+}
+.mb_left_openclose{
+    display: none;
+}
+
+@media (max-width: 1280px) {
+    .mahsulotlar .one-product{
+        width: 280px;
+    }
+    .mahsulotlar .one-product .delivery{
+        padding-right: 20px;
+    }
+    .ct_end {
+        padding-left: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .mahsulotlar_top {
+        width: 100%;
+        height: auto;
+        padding: 10px 40px;
+        background-color: rgb(240 240 240);
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .mahsulotlar_bottom {
+        width: 100%;
+        height: auto;
+        display: flex;
+        padding: 20px 40px 0px;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .mahsulotlar {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 0px 0px 30px;
+    }
+
+    .mahsulotlar_top {
+        width: 100%;
+        height: auto;
+        padding: 10px 160px;
+        background-color: rgb(240 240 240);
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .mahsulotlar_top h1 a {
+        text-decoration: none;
+        color: rgb(117 117 117);
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .mahsulotlar_bottom {
+        width: 100%;
+        height: auto;
+        display: flex;
+        padding: 20px 160px 0px;
+    }
+
+    .mb_left {
+        width: 300px;
+        height: 700px;
+        overflow: scroll;
+        background-color: white;
+        position: absolute;
+        z-index: 100;
+    }
+    .mb_left_openclose{
+        display: flex;
+    }
+    .mb_left_openclose img{
+        width: 30px;
+        height: 30px;
+    }
+    .x-uchun{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 10px;
+    }
+    .x-uchun img{
+        display: flex;
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+    }
+    .mb_left_input {
+        width: 100%;
+        height: auto;
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        background-color: white;
+    }
+
+    .mb_left_input input {
+        width: 150px;
+        border: none;
+        background-color: rgb(241, 237, 237);
+        border-radius: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .cardType {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        border: 1px solid grey;
+        padding-right: 20px;
+    }
+
+    .ct_right_yellow {
+        width: 5px;
+        height: 250px;
+        background-color: rgb(243, 174, 2) !important;
+        margin-right: 20px;
+    }
+
+    .ct_img {
+        padding-right: 5px;
+    }
+
+    .ct_img img {
+        width: 200px;
+        height: 205px;
+    }
+
+    .ct_center {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        padding-left: 5px;
+    }
+
+    .ctc_h1 {
+        width: 210px;
+        height: auto;
+        font-size: 12px;
+    }
+
+    .ct_center_yellow {
+        width: 50px;
+        height: 2px;
+        background: rgb(243, 174, 2);
+    }
+
+    .ct_center_buyurtma {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        color: #E60000;
+    }
+
+    .ct_center_type {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .ctc_type_text {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .ctc_type_text p{
+        font-size: 12px;
+    }
+
+    .ctct_line {
+        width: 100%;
+        height: 1px;
+        background-color: grey;
+    }
+
+    .ct_end {
+        padding-left: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .ct_end_top {
+        width: 100%;
+        display: flex;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .ct_end_top_funcs {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .ct_end_bottom {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .ctend_bot_price {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 5px;
+    }
+
+    .cbp {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .mahsulotlar_cip {
+        background-color: #FF052E14;
+        color: #FF0000;
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: 10px;
+    }
+
+    .cbp h1 {
+        color: #FF0000;
+        font-size: 16px;
+    }
+
+    .ctend_bot_price p {
+        color: #333333;
+        font-size: 12px;
+    }
+
+    .ct_end_bottom a {
+        width: 100%;
+        height: 35px;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        background: rgb(243, 174, 2);
+        text-decoration: none;
+        color: #333333;
+    }
+}
+
+@media (max-width: 768px) {
+    .mahsulotlar {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 0px 0px 30px;
+    }
+
+    .mahsulotlar_top {
+        width: 100%;
+        height: auto;
+        padding: 10px 35px;
+        background-color: rgb(240 240 240);
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .mahsulotlar_top h1 a {
+        text-decoration: none;
+        color: rgb(117 117 117);
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .mahsulotlar_bottom {
+        width: 100%;
+        height: auto;
+        display: flex;
+        padding: 20px 35px 0px;
+    }
+    .one-product .delivery{
+        width: 270px;
+    }
+    .one-product .product-desc{
+        width: 270px;
+    }
+    .one-product .product-static{
+        width: 270px;
+    }
+    .one-product .product-btn{
+        width: 270px;
+    }
+
+    .mb_left {
+        width: 300px;
+        height: 700px;
+        overflow: scroll;
+        background-color: white;
+        position: absolute;
+        z-index: 100;
+    }
+    .mb_left_openclose{
+        display: flex;
+    }
+    .mb_left_openclose img{
+        width: 30px;
+        height: 30px;
+    }
+    .x-uchun{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 10px;
+    }
+    .x-uchun img{
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+    }
+    .mb_left_input {
+        width: 100%;
+        height: auto;
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        background-color: white;
+    }
+
+    .mb_left_input input {
+        width: 150px;
+        border: none;
+        background-color: rgb(241, 237, 237);
+        border-radius: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .cardType {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        border: 1px solid grey;
+        padding-right: 20px;
+    }
+
+    .ct_right_yellow {
+        width: 5px;
+        height: 250px;
+        background-color: rgb(243, 174, 2) !important;
+        margin-right: 5px;
+    }
+
+    .ct_img {
+        padding-right: 5px;
+    }
+
+    .ct_img img {
+        width: 150px;
+        height: 155px;
+    }
+
+    .ct_center {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        padding-left: 5px;
+    }
+
+    .ctc_h1 {
+        width: 210px;
+        height: auto;
+        font-size: 12px;
+    }
+
+    .ct_center_yellow {
+        width: 50px;
+        height: 2px;
+        background: rgb(243, 174, 2);
+    }
+
+    .ct_center_buyurtma {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        color: #E60000;
+    }
+
+    .ct_center_type {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .ctc_type_text {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .ctc_type_text p{
+        font-size: 12px;
+    }
+
+    .ctct_line {
+        width: 100%;
+        height: 1px;
+        background-color: grey;
+    }
+
+    .ct_end {
+        padding-left: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .ct_end_top {
+        width: 100%;
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .ct_end_top_funcs {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .ct_end_bottom {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .ctend_bot_price {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 5px;
+    }
+
+    .cbp {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .mahsulotlar_cip {
+        background-color: #FF052E14;
+        color: #FF0000;
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: 10px;
+    }
+
+    .cbp h1 {
+        color: #FF0000;
+        font-size: 16px;
+    }
+
+    .ctend_bot_price p {
+        color: #333333;
+        font-size: 12px;
+    }
+
+    .ct_end_bottom a {
+        width: 100%;
+        height: 35px;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        background: rgb(243, 174, 2);
+        text-decoration: none;
+        color: #333333;
+    }
+
+}
+
+@media (max-width: 450px) {
+    .mahsulotlar {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 0px 0px 30px;
+    }
+
+    .mahsulotlar_top {
+        width: 100%;
+        height: auto;
+        padding: 10px 10px;
+        background-color: rgb(240 240 240);
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .mahsulotlar_top h1 a {
+        text-decoration: none;
+        color: rgb(117 117 117);
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .mahsulotlar_bottom {
+        width: 100%;
+        height: auto;
+        display: flex;
+        padding: 10px 10px 0px;
+    }
+    .one-product .delivery{
+        width: 270px;
+    }
+    .one-product .product-desc{
+        width: 270px;
+    }
+    .one-product .product-static{
+        width: 270px;
+    }
+    .one-product .product-btn{
+        width: 270px;
+    }
+
+    .mb_left {
+        width: 300px;
+        height: 700px;
+        overflow: scroll;
+        background-color: white;
+        position: absolute;
+        z-index: 100;
+    }
+    .mb_left_openclose{
+        display: flex;
+    }
+    .mb_left_openclose img{
+        width: 30px;
+        height: 30px;
+    }
+    .x-uchun{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 10px;
+    }
+    .x-uchun img{
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+    }
+    .mb_left_input {
+        width: 100%;
+        height: auto;
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        background-color: white;
+    }
+
+    .mb_left_input input {
+        width: 150px;
+        border: none;
+        background-color: rgb(241, 237, 237);
+        border-radius: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .cardType {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        border: 1px solid grey;
+        padding-right: 0px;
+        flex-direction: column;
+        gap: 10px;
+        padding-bottom: 20px;
+    }
+
+    .ct_right_yellow {
+        width: 270px;
+        height: 5px;
+        background-color: rgb(243, 174, 2) !important;
+        margin-right: 0px;
+    }
+
+    .ct_img {
+        padding-right: 5px;
+    }
+
+    .ct_img img {
+        width: 150px;
+        height: 155px;
+    }
+
+    .ct_center {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        padding-left: 5px;
+    }
+
+    .ctc_h1 {
+        width: 210px;
+        height: auto;
+        font-size: 12px;
+    }
+
+    .ct_center_yellow {
+        width: 50px;
+        height: 2px;
+        background: rgb(243, 174, 2);
+    }
+
+    .ct_center_buyurtma {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        color: #E60000;
+    }
+
+    .ct_center_type {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .ctc_type_text {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .ctc_type_text p{
+        font-size: 12px;
+    }
+
+    .ctct_line {
+        width: 100%;
+        height: 1px;
+        background-color: grey;
+    }
+
+    .ct_end {
+        padding-left: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .ct_end_top {
+        width: 100%;
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .ct_end_top_funcs {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .ct_end_bottom {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .ctend_bot_price {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 5px;
+    }
+
+    .cbp {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .mahsulotlar_cip {
+        background-color: #FF052E14;
+        color: #FF0000;
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: 10px;
+    }
+
+    .cbp h1 {
+        color: #FF0000;
+        font-size: 16px;
+    }
+
+    .ctend_bot_price p {
+        color: #333333;
+        font-size: 12px;
+    }
+
+    .ct_end_bottom a {
+        width: 100%;
+        height: 35px;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        background: rgb(243, 174, 2);
+        text-decoration: none;
+        color: #333333;
+    }
+
+}
+
+@media (max-width: 450px) {
+    .mahsulotlar {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 0px 0px 30px;
+    }
+
+    .mahsulotlar_top {
+        width: 100%;
+        height: auto;
+        padding: 10px 10px;
+        background-color: rgb(240 240 240);
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .mahsulotlar_top h1 a {
+        text-decoration: none;
+        color: rgb(117 117 117);
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .mahsulotlar_bottom {
+        width: 100%;
+        height: auto;
+        display: flex;
+        padding: 10px 10px 0px;
+    }
+    .one-product .delivery{
+        width: 270px;
+    }
+    .one-product .product-desc{
+        width: 270px;
+    }
+    .one-product .product-static{
+        width: 270px;
+    }
+    .one-product .product-btn{
+        width: 270px;
+    }
+
+    .mb_left {
+        width: 300px;
+        height: 700px;
+        overflow: scroll;
+        background-color: white;
+        position: absolute;
+        z-index: 100;
+    }
+    .mb_left_openclose{
+        display: flex;
+    }
+    .mb_left_openclose img{
+        width: 30px;
+        height: 30px;
+    }
+    .x-uchun{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 10px;
+    }
+    .x-uchun img{
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+    }
+    .mb_left_input {
+        width: 100%;
+        height: auto;
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        background-color: white;
+    }
+
+    .mb_left_input input {
+        width: 150px;
+        border: none;
+        background-color: rgb(241, 237, 237);
+        border-radius: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .cardType {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        border: 1px solid grey;
+        padding-right: 0px;
+        flex-direction: column;
+        gap: 10px;
+        padding-bottom: 20px;
+    }
+
+    .ct_right_yellow {
+        width: 270px;
+        height: 5px;
+        background-color: rgb(243, 174, 2) !important;
+        margin-right: 0px;
+    }
+
+    .ct_img {
+        padding-right: 5px;
+    }
+
+    .ct_img img {
+        width: 150px;
+        height: 155px;
+    }
+
+    .ct_center {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        padding-left: 5px;
+    }
+
+    .ctc_h1 {
+        width: 210px;
+        height: auto;
+        font-size: 12px;
+    }
+
+    .ct_center_yellow {
+        width: 50px;
+        height: 2px;
+        background: rgb(243, 174, 2);
+    }
+
+    .ct_center_buyurtma {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        color: #E60000;
+    }
+
+    .ct_center_type {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .ctc_type_text {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .ctc_type_text p{
+        font-size: 12px;
+    }
+
+    .ctct_line {
+        width: 100%;
+        height: 1px;
+        background-color: grey;
+    }
+
+    .ct_end {
+        padding-left: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .ct_end_top {
+        width: 100%;
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .ct_end_top_funcs {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .ct_end_bottom {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .ctend_bot_price {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 5px;
+    }
+
+    .cbp {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .mahsulotlar_cip {
+        background-color: #FF052E14;
+        color: #FF0000;
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: 10px;
+    }
+
+    .cbp h1 {
+        color: #FF0000;
+        font-size: 16px;
+    }
+
+    .ctend_bot_price p {
+        color: #333333;
+        font-size: 12px;
+    }
+
+    .ct_end_bottom a {
+        width: 100%;
+        height: 35px;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        background: rgb(243, 174, 2);
+        text-decoration: none;
+        color: #333333;
+    }
+    /* .mb_right_center{
+        padding-right: 30px;
+    } */
+    .mbrc_filter{
+        font-size: 10px;
+    }
+    .mb_right{
+        width: 350px;
+    }
 }
