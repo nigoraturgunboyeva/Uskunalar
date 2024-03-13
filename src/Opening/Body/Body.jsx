@@ -11,6 +11,7 @@ import { TfiBookmarkAlt } from "react-icons/tfi";
 import { TbTruckDelivery } from "react-icons/tb";
 import { GrUserSettings } from "react-icons/gr";
 import { HiMiniReceiptPercent } from "react-icons/hi2";
+import { NavLink } from 'react-router-dom';
 export default function Body() {
     const settings = {
         dots: true,
@@ -23,16 +24,16 @@ export default function Body() {
     <div className="slider-container openingslider">
     <Slider {...settings}>
       <div>
-      <img src={img1} alt="" />
+      <NavLink to={'mahsulotlar'}><img src={img1} alt="" /></NavLink>
       </div>
       <div>
-      <img src={img2} alt="" />
+      <NavLink to={'mahsulotlar'}><img src={img2} alt="" /></NavLink>
       </div>
       <div>
-      <img src={img3} alt="" />
+      <NavLink to={'mahsulotlar'}><img src={img3} alt="" /></NavLink>
       </div>
       <div>
-      <img src={img4} alt="" />
+      <NavLink to={'mahsulotlar'}><img src={img4} alt="" /></NavLink>
       </div>
     </Slider>
     <div className="slider-desc">
