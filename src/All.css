@@ -6,7 +6,9 @@
     text-decoration: none;
     font-family: sans-serif;
 }
-
+ul li a:active{
+    color: rgb(243, 174, 2);
+}
 input {
     outline: none;
     padding: 5px;

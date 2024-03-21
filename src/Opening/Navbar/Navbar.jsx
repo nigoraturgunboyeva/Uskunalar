@@ -99,6 +99,7 @@ export default function Navbar() {
             </div>
             <div className="navbar-yellow">
                 <div className="navbar-yellow-1">
+                        <NavLink to={'mahsulotlar'} >
                     <div className="catalog">
                         <div>Katalog</div>
                         <div>
@@ -107,13 +108,14 @@ export default function Navbar() {
                             <div className="toggle-span"></div>
                         </div>
                     </div>
+                        </NavLink>
                     <div className="navbar-yellow-nav">
                         <ul>
-                            <li><NavLink className={"b"}>MEMAK</NavLink></li>
-                            <li><NavLink className={"b"}>Elektromobil</NavLink></li>
-                            <li><NavLink className={"b"}>Oziq-ovqat sanoati</NavLink></li>
-                            <li><NavLink className={"b"}>Non va non mahsulotlarini ishlab chi…</NavLink></li>
-                            <li><NavLink className={"b"}>Qurilish sanoati</NavLink></li>
+                            <li><NavLink to={'mahsulotlar'} className={"b"}>MEMAK</NavLink></li>
+                            <li><NavLink to={'mahsulotlar'} className={"b"}>Elektromobil</NavLink></li>
+                            <li><NavLink to={'mahsulotlar'} className={"b"}>Oziq-ovqat sanoati</NavLink></li>
+                            <li><NavLink to={'mahsulotlar'} className={"b"}>Non va non mahsulotlarini ishlab chi…</NavLink></li>
+                            <li><NavLink to={'mahsulotlar'} className={"b"}>Qurilish sanoati</NavLink></li>
                         </ul>
                     </div>
                 </div>
