@@ -98,25 +98,25 @@ export default function Footer() {
                     </NavLink>
                 </div>
                 <div className='navbar-footer-baskets'>
-                   <NavLink>
+                   <NavLink to={'mahsulotlar'}>
                    <div><BsCart /></div>
                     <h5>Mahsulotlar</h5>
                    </NavLink>
                 </div>
             <div className='navbar-footer-baskets'>
-                    <NavLink>
+                    <NavLink to={'liked'}>
                     <div><IoHeartOutline /></div>
                     <h5>Sevimlilar</h5>
                     </NavLink>
                 </div>
                 <div className='navbar-footer-baskets'>
-                   <NavLink>
+                   <NavLink to={'scale'}>
                    <div><PiScalesFill /></div>
                     <h5>Taqqoslash</h5>
                    </NavLink>
                 </div>
                 <div className='navbar-footer-baskets'>
-                    <NavLink>
+                    <NavLink to={'basket'}>
                     <div><BsCart /></div>
                     <h5>Savat</h5>
                     </NavLink>
