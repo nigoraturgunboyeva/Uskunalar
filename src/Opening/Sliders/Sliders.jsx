@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import img1 from "./circled2.png"
 import img2 from "./main_icon.png"
 import img3 from "./images1.png"
+import { NavLink } from 'react-router-dom';
 export default function Sliders() {
     const settings = {
         dots: false,
@@ -17,7 +18,8 @@ export default function Sliders() {
   return (
  <div className="slider-cont">
     <div className="slider-container">
-      <Slider {...settings}>
+     <NavLink to={'mahsulotlar'}>
+     <Slider {...settings}>
         <div className='slider-blog'>
        <div className='slidercover'>
        <div><img src={img2} alt="" /></div>
@@ -140,6 +142,7 @@ export default function Sliders() {
        </div>
         </div>
       </Slider>
+     </NavLink>
     </div>
 
  </div>
