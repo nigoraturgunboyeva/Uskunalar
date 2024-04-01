@@ -51,7 +51,7 @@
 
 .a:hover {
     transition: all .0s ease-in;
-    color: rgb(254, 189, 23);
+    color: #9fc6d3;
 }
 
 .navbar-black-below .logo {
@@ -71,12 +71,12 @@
 
 .headphone-icon {
     font-size: 35px;
-    color: rgb(254, 189, 23);
+    color: #85a6b1;
     margin-right: 12.5px;
 }
 
 .navbar-number-1 {
-    color: rgb(254, 189, 23);
+    color: #85a6b1;
 }
 
 .navbar-number-2 {
@@ -148,7 +148,7 @@
 
 .navbar-yellow {
     height: 64px;
-    background-color: rgb(254, 189, 23);
+    background-color: #85a6b1;
 }
 
 .navbar-yellow-1 {
@@ -179,7 +179,7 @@
 
 .navbar-yellow-nav ul li:hover {
     transition: all .2s ease-in;
-    background-color: rgb(243, 174, 2);
+    background-color: #a0c8d5;
 }
 
 .catalog {
@@ -205,7 +205,7 @@
 
 .navbar-baskets a:hover {
     cursor: pointer;
-    color: rgb(254, 189, 23);
+    color: #9ec7d5;
 }
 
 .navbar-res-header {
@@ -391,7 +391,7 @@
         color: white;
         font-size: 16px;
         border-radius: 8px;
-        background-color: rgb(243, 174, 2);
+        background-color: #a2ccda;
     }
 
     .navbar-res-header {
@@ -802,7 +802,7 @@
     color: rgb(209, 18, 18);
 }
 .searchCards:hover {
-    border: 1px solid yellow;
+    border: 1px solid #85a6b1;
 }
 
 .searchCards figure img {

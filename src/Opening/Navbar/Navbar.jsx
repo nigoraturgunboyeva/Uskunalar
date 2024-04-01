@@ -45,7 +45,7 @@ export default function Navbar() {
                             <li><NavLink className={"a"}>Bizning ishlar</NavLink></li>
                         </ul>
                     </div>
-                    <div className="navbar-select">
+                    {/* <div className="navbar-select">
                         <div className="navbar-translator"><RiTranslate2 /></div>
                         <div>
                             <select name="" id="">
@@ -54,7 +54,7 @@ export default function Navbar() {
                                 <option value="en">EN</option>
                             </select>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="navbar-black-below">
                     <div><NavLink to={'/'}><img className='logo' src={logo} alt="" /></NavLink></div>

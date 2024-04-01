@@ -21,13 +21,15 @@ import Modal from '@mui/material/Modal';
 import { TbTruckDelivery } from "react-icons/tb";
 import TextField from '@mui/material/TextField';
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
+import { saveAs } from "file-saver";
 const ViewProduct = () => {
     const { basket, liked , scale, Error} = useSelector(state => state.main)
     const { id } = useParams();
     const [product, setProduct] = useState([]);
     const [isloading, setLoading] = useState(false);
     const [count, setCount] = useState(1)
-    const dispatch = useDispatch()
+    const dispatch = useDispatch();
+  
     useEffect(()=>{
     async function FetchData(){
        try {
@@ -153,7 +155,7 @@ const ViewProduct = () => {
             <br />
             <div className="product">
                 <div className="product-1">
-                    <div className="product-1-img"><img src={product.img} alt="" /></div>
+                    <div className="product-1-img"><img src={product.img} alt=""  /></div>
                     <div>
                         <div className="product-1-icon">
                         <div onClick={()=>handleAddLiked(product)}>

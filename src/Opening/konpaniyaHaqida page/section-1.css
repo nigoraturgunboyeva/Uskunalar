@@ -19,7 +19,7 @@
 }
 
 span {
-    color: orange;
+    color: #85a6b1;
 }
 
 .bu-section-1-text-2 {
@@ -60,7 +60,7 @@ span {
 
 .img-card-kh {
     width: 30px;
-    color: orange;
+    color: #85a6b1;
     padding-right: 80px;
     padding-top: 10px;
 }
@@ -149,13 +149,13 @@ span {
 
 .xalqaro-us-third-part {
     display: flex;
-    background-color: gray;
+    background-color: rgb(177, 177, 177);
     gap: 1px;
     /* flex-wrap: wrap; */
 }
 
 .third-part-text-1 {
-    color: black;
+    color: rgb(74, 74, 74);
     z-index: 999;
     text-align: center;
     font-size: 30px;
@@ -165,7 +165,7 @@ span {
 }
 
 .third-part-text-2 {
-    font-size: 23px;
+    font-size: 20px;
     margin-top: 10px;
     color: black;
     margin-left: 70px;

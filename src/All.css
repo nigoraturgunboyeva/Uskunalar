@@ -25,7 +25,7 @@ input {
 .navbar-footer-baskets:active {
     padding: 10px;
     border-radius: 10px;
-    background-color: rgb(243, 174, 2);
+    background-color: #4795af;
 }
 .x-uchun img{
     display: none;
@@ -155,7 +155,7 @@ input {
 .mb_length {
     width: 60px;
     height: 30px;
-    border: 1px solid rgb(243, 174, 2);
+    border: 2px solid #4795af;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -185,7 +185,7 @@ input {
 }
 
 .mbrc_filter:active {
-    background-color: #E60000;
+    background-color: #4795af;
     color: white;
 }
 
@@ -204,7 +204,7 @@ input {
 }
 
 .mbrc_cards_type button:active {
-    background-color: rgb(243, 174, 2);
+    background-color: #4795af;
 }
 
 .mbrc_cards_type button svg {
@@ -240,7 +240,7 @@ input {
 
 .m_p_btn:hover {
     transition: all .2s linear;
-    background-color: rgb(243, 174, 2);
+    background-color: #4795af;
     cursor: pointer;
 }
 
@@ -261,7 +261,7 @@ input {
 .ct_right_yellow {
     width: 5px;
     height: 250px;
-    background-color: rgb(243, 174, 2) !important;
+    background-color: #4795af !important;
     margin-right: 20px;
 }
 
@@ -290,7 +290,7 @@ input {
 .ct_center_yellow {
     width: 50px;
     height: 2px;
-    background: rgb(243, 174, 2);
+    background: #4795af;
 }
 
 .ct_center_buyurtma {
@@ -379,7 +379,7 @@ input {
     gap: 10px;
     align-items: center;
     justify-content: center;
-    background: rgb(243, 174, 2);
+    background: #4795af;
     text-decoration: none;
     color: #333333;
 }
@@ -746,7 +746,7 @@ input {
     .ct_right_yellow {
         width: 5px;
         height: 250px;
-        background-color: rgb(243, 174, 2) !important;
+        background-color: #4795af !important;
         margin-right: 5px;
     }
 
@@ -775,7 +775,7 @@ input {
     .ct_center_yellow {
         width: 50px;
         height: 2px;
-        background: rgb(243, 174, 2);
+        background: #4795af;
     }
 
     .ct_center_buyurtma {
@@ -870,7 +870,7 @@ input {
         gap: 10px;
         align-items: center;
         justify-content: center;
-        background: rgb(243, 174, 2);
+        background: #4795af;
         text-decoration: none;
         color: #333333;
     }
@@ -984,7 +984,7 @@ input {
     .ct_right_yellow {
         width: 270px;
         height: 5px;
-        background-color: rgb(243, 174, 2) !important;
+        background-color: #4795af !important;
         margin-right: 0px;
     }
 
@@ -1013,7 +1013,7 @@ input {
     .ct_center_yellow {
         width: 50px;
         height: 2px;
-        background: rgb(243, 174, 2);
+        background: #4795af;
     }
 
     .ct_center_buyurtma {
@@ -1108,7 +1108,7 @@ input {
         gap: 10px;
         align-items: center;
         justify-content: center;
-        background: rgb(243, 174, 2);
+        background: #4795af;
         text-decoration: none;
         color: #333333;
     }
@@ -1222,7 +1222,7 @@ input {
     .ct_right_yellow {
         width: 270px;
         height: 5px;
-        background-color: rgb(243, 174, 2) !important;
+        background-color: #4795af !important;
         margin-right: 0px;
     }
 
@@ -1251,7 +1251,7 @@ input {
     .ct_center_yellow {
         width: 50px;
         height: 2px;
-        background: rgb(243, 174, 2);
+        background: #4795af;
     }
 
     .ct_center_buyurtma {
@@ -1346,7 +1346,7 @@ input {
         gap: 10px;
         align-items: center;
         justify-content: center;
-        background: rgb(243, 174, 2);
+        background: #4795af;
         text-decoration: none;
         color: #333333;
     }

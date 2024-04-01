@@ -24,7 +24,7 @@
     margin-top: 10px;
     margin-bottom: 10px;
     height: 3px;
-    background-color: rgb(254, 189, 23);
+    background-color: #85a6b1;
 }
 .blogs{
     max-width: 1403px;
@@ -47,7 +47,7 @@
 }
 .blog-img{
     font-size: 30px;
-    color: rgb(254, 189, 23);
+    color: #85a6b1;
     margin-top: 15px;
 }
 .blog h3{
@@ -137,7 +137,7 @@
     font-size: 36px;
 }
 .blog-us-quantity{
-    color: rgb(254, 189, 23);
+    color: #85a6b1;
     font-size: 28px;
     font-weight: 600;
 }
@@ -179,7 +179,7 @@
     height: 4px;
     width: 24px;
     border-radius: 6px;
-    background: rgb(254, 189, 23);
+    background: #85a6b1;
 }
 .friends-cont p {
     color: rgb(0, 0, 0);
@@ -203,7 +203,7 @@
     margin-bottom: 50px;
 }
 .footer-yellow{
-    background: rgb(254, 189, 23);
+    background: #85a6b1;
 }
 .footer-yellow-cover{
     max-width: 1403px;
@@ -326,7 +326,7 @@
     line-height: 24px;
 }
 .footer-black-cover ul li a:hover{
-    color: rgb(254, 189, 23);
+    color: #a1d5e6;
     transition: all .1s ease-in-out;
     cursor: pointer;
     text-decoration: underline;
@@ -416,10 +416,10 @@ figure {
     width: 305px;
     height: 470px;
     box-sizing: border-box;
-    border-bottom: 1px solid rgb(254, 189, 23);
-    border-left: 1px solid rgb(254, 189, 23);
-    border-right: 1px solid rgb(254, 189, 23);
-    border-top: 8px solid rgb(254, 189, 23);
+    border-bottom: 1px solid #85a6b1;
+    border-left: 1px solid #85a6b1;
+    border-right: 1px solid #85a6b1;
+    border-top: 8px solid #85a6b1;
     background: rgb(255, 255, 255);
 }
 .one-checked-product img{
@@ -436,10 +436,10 @@ figure {
     width: 288px;
     height: 454px;
     box-sizing: border-box;
-    border-bottom: 1px solid rgb(254, 189, 23);
-    border-left: 1px solid rgb(254, 189, 23);
-    border-right: 1px solid rgb(254, 189, 23);
-    border-top: 8px solid rgb(254, 189, 23);
+    border-bottom: 1px solid #85a6b1;
+    border-left: 1px solid #85a6b1;
+    border-right: 1px solid #85a6b1;
+    border-top: 8px solid #85a6b1;
     background: rgb(255, 255, 255);
 }
 .one-checked-product  figure figcaption {
@@ -476,10 +476,12 @@ figure {
     padding-left: 10px;
     padding-bottom: 9px;
     padding-right: 5px;
+    margin-top: 10px;
+    height: 50px;
     border-bottom: 1px solid rgb(228, 228, 228);
 }
 .div3{
-    background-color: rgb(254, 189, 23);
+    background-color: #ffffff;
     width: 40px;
     height: 2px;
     display: none;
@@ -518,7 +520,7 @@ figure {
     border-radius: 50%;
     color: black;
     font-size: 16px;
-    background-color: rgb(254, 189, 23);
+    background-color: #4795af;
     border: none;
 }
 .product-links div button{
@@ -574,8 +576,11 @@ figure {
     font-weight: 100;
     margin-bottom: 10px;
 }
+.product-btn{
+    margin-top: 20px;
+}
 .product-btn a{
-    background-color:rgb(254, 189, 23);
+    background-color:#85a6b1;
     width: 265px;
     height: 40px;
     color: #000;
@@ -592,6 +597,8 @@ figure {
         transition: all .2s ease;
         margin-left: 5px;
     }
+
+    
 }
 .product-footer{
     display: block;
@@ -624,7 +631,7 @@ figure {
     border-radius: 5px;
 }
 .likedh2 .span2{
-    background-color: rgb(254, 189, 23);
+    background-color: #85a6b1;
     width: 30px;
     height: 4px;
     border-radius: 5px;
@@ -678,13 +685,13 @@ figure {
     font-size: 16px;
     border-radius: 10px;
     padding: 10px 20px 10px 20px;
-    background-color: rgb(254, 189, 23);
+    background-color: #4795af;
     margin-bottom: 20px;
 }
 .liked-none-desc button:hover{
     cursor: pointer;
     transition: all .3s ease-in-out;
-    background-color: rgb(220, 158, 2);
+    background-color: #25b2e0;
 }
 .switch-btn{
     margin-top: 20px;
@@ -693,10 +700,7 @@ figure {
     margin-left: 5px;   
 }
 .book-div{
-    border-bottom: 1px solid rgb(254, 189, 23);
-    border-left: 1px solid rgb(254, 189, 23);
-    border-right: 1px solid rgb(254, 189, 23);
-    border-top: 1px solid rgb(254, 189, 23);
+    border: 1px solid #85a6b1;
     background: rgb(255, 255, 255);
 }
 .book-div{
@@ -726,7 +730,7 @@ figure {
     margin-right: 10px;
     padding: 10px 20px;
     border: none;
-    border: 1px dashed rgb(250, 219, 9);
+    border: 1px dashed #85a6b1;
     background-color: white;
     font-size: 14px;
     border-radius: 8px;
@@ -734,7 +738,7 @@ figure {
 .book-btn-1:hover{
     transition: all .2s ease;
     cursor: pointer;
-    background-color: rgb(250, 182, 9);
+    background-color: #4795af;
 }
 .product-1{
     display: flex;
@@ -856,12 +860,12 @@ figure {
 }
 .gry-strike:hover{
     transition: all .2s ease;
-    background-color: rgb(220, 158, 2);
+    background-color: #85a6b1;
 }
 
 .white-strike:hover{
     transition: all .2s ease;
-    background-color: rgb(255, 190, 24);
+    background-color: #85a6b1;
 }
 .product-static-2{
     display: flex;
@@ -880,10 +884,10 @@ figure {
     display: flex;
     padding: 5px;
     gap: 10px;
-    border-right: rgb(255, 190, 24) 4px solid;
-    border-left: rgb(255, 190, 24) 1px solid;
-    border-top: rgb(255, 190, 24) 1px solid;
-    border-bottom: rgb(255, 190, 24) 1px solid;
+    border-right: #4795af 4px solid;
+    border-left: #4795af 1px solid;
+    border-top: #4795af 1px solid;
+    border-bottom: #4795af 1px solid;
 }
 .modal-div-2 img{
     width: 130px;
@@ -906,12 +910,12 @@ figure {
     padding: 8px 20px;
     border: none;
     border-radius: 6px;
-    background-color: rgb(255, 190, 24);
+    background-color: #4795af;
 }
 
 .modal-send-btn:hover{
     transition: all .2s ease;
-    background-color: rgb(255, 202, 68);
+    background-color: #0e95c2;
 }
 
 .modal-div-3 h6{
